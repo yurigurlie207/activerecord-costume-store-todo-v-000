@@ -22,7 +22,7 @@ def change
    t.string :name
    t.string :price
    t.integer :size
-   t.string :hometown
+   t.string :imageurl
   end
 end
 
