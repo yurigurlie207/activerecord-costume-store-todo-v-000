@@ -16,7 +16,6 @@ class CreateCostumes < ActiveRecord::Migration[4.2]
   def down
   end
 
-  # db/migrate/01_create_artists.rb
 def change
   create_table :costumes do |t|
    t.string :name
